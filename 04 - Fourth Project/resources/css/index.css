@@ -121,10 +121,7 @@ body {
   }
   
   @media (max-width: 650px) {
-    .grid {
-  
-    }
-    
+        
     .title {
       width: 65%;
       font-size: 120%;
