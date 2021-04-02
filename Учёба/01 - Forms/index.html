@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Создаём формы</title>
+</head>
+<body>
+    <form action="#" method="POST" enctype="multipart/form-data"></form>
+    <div>
+        <legend><p>Enter login</p></legend>
+        <input type="text" name="username" value="" placeholder="Enter login">
+    </div>
+    <div>
+        <legend><p>Enter password</p></legend>
+        <input type="password" name="userpass" value="" placeholder="Enter password">
+    </div>
+    <div>
+        <p><input type="radio" checked name="beer" value="lager">Light beer</p>
+        <p><input type="radio" name="beer" value="dark">Dark beer</p>
+    </div>
+    <br>
+    <div>
+        <p><input type="checkbox" name="car" value="yes">Car</p>
+        <p><input type="checkbox" name="truck" value="yes">Truck</p>
+        <p><input type="checkbox" name="moto" value="yes">Moto</p>
+        <p><input type="checkbox" name="bike" value="yes">Bicycle</p>
+    </div>
+    <br>
+    <div>
+        <input type="file" name="foto">
+    </div>
+    <br>
+    <div>
+        <textarea name="textarea"></textarea>
+    </div>
+    <br>
+    <div>
+        <select name="somelist">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <select multiple name="somelist"> <!-- можно выбрать несколько значений из списка -->
+            <option value="option1">Option 1</option>
+            <option selected value="option2">Option 2</option> <!-- selected выбирает пункт по умолчанию -->
+            <option value="option3">Option 3</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <button type='submit'>Submit</button> 
+    </div>
+</body>
+</html>
