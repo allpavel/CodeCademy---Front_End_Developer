@@ -1,0 +1,132 @@
+/* 
+Colors:
+#BDE3F2 - Blue
+#595956 - dark gray
+#A6A59F - gray
+#0D0D0D - black
+*/
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #dedede;
+}
+
+.navigation {
+    background-color: #F2F2F2;
+    box-sizing: border-box;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #595956;
+    z-index: 150;
+}
+
+.navigation a{
+    color: #736B92;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.4s linear;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: #8dc8f0;
+    border: 1px solid #3b6480;
+    border-radius: 5px;
+    text-decoration: none
+}
+  
+.nav-link:active {
+    background-color: #6b94b0;
+    color: #c3c7c9;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 20px;
+    overflow: hidden;
+  }
+  
+li {
+    float: left;
+}
+  
+.banner {
+    display: flex;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center-top;
+    border-bottom: 1px solid #dddddd;
+    height: 700px;
+    text-align: center;
+    top: 110px;
+    width: 100%;
+}
+
+.banner .banner-text{
+    margin: auto;
+    background-color: white;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.departments {
+    padding: 40px 0px;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.departments h2 {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.department {
+    background-color: #595959;
+    box-sizing: border-box;
+    width: 240px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Amatic SC',sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 5px;
+    border-radius: 5px;
+    transition: 0.4s linear;
+}
+
+.footer{
+    background-color: #595959;
+    padding: 30px;
+    text-align: center;
+}
+
+.footer h2{
+    color: #ffffff;
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
