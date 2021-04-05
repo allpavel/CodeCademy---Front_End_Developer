@@ -72,4 +72,52 @@ h1, h2, h3, h4, h5, h6 {
     font-size: inherit;
     font-weight: 400;
 }
+
+
+.arial {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.font-size20 {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: aqua;
+}
 /* Конец */
+
+
+.align {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.text-decoration {
+    font-size: 20px;
+    text-decoration: underline;
+    text-shadow: 5px 5px 1px black;
+}
+
+.transform {
+    text-transform: uppercase;
+}
+
+.ident {
+    text-indent: 20px;
+}
+
+.letter {
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+
+.whitespace {
+    white-space: nowrap;
+}
+
+.line2 {
+    line-height: 5px;
+}

@@ -1,0 +1,113 @@
+/* Сбрасываем стили браузеров */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+
+.arial {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.font-size20 {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: aqua;
+}
+/* Конец */
+
+.example-block { /* блочный тег */
+    /*padding: 10%;*/
+    display: block; /* превращает элемент в блочный. к нему
+    примянются свойства ширины, высоты и тд. Inline - превращает
+    элемент в строчный и вышеуказанные стили прекращают работать. inline-block - гибрид между строчным и блочным
+    типами, когда элемент строчный но форматирование блочное к нему применяется. */
+    margin: 10px 10px 20px 40px;
+    width: 50%;
+    height: 70px;
+    overflow: auto;
+    border: 1px solid black;
+}
+
+.example-string { /* строчный тег */
+    display: block;
+    margin: 200px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.image1 {
+    margin-top: 50px;
+    width: 100%;
+    max-width: 1300px;
+}
