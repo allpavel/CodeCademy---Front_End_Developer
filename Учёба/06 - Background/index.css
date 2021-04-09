@@ -1,0 +1,118 @@
+/* Сбрасываем стили браузеров */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+/* Конец */
+
+body {
+    padding: 30px;
+    background: url('./icon.png') center fixed;
+}
+
+.block {
+    margin-top: 150px;
+    background-color: beige;
+    background-image: url('./icon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px purple;
+    /*background: linear-gradient(to left, rgba(236, 232, 157, 1) 0%, rgba(94, 83, 115, .5) 50%);*/
+    /*background-image: url('C:\\Users\\Павел\\Downloads\\projects\\06 - Sixth Project\\resources\\images\\banner.jpg') 50%/cover;*/
+    /*background-attachment: fixed;*/
+    /*background-size: 100% auto;*/
+}
+
+.block2 {
+    height: 400px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px greenyellow;
+    background: url('./icon.png') center no-repeat, url('C:\\Users\\Павел\\Downloads\\projects\\06 - Sixth Project\\resources\\images\\banner.jpg') 50%/cover;
+}
+
+.list {
+    padding: 0 0 50px 0;
+}
+
+.list li {
+    font-size: 50px;
+    margin-top: 20px;
+    background-image: url('C:\\Users\\Павел\\Downloads\\projects\\05 - Fifth Project\\resources\\images\\telephone.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 50px;
+    background-size: auto 100%;
+    background-color:khaki;
+    border-radius: 30px;
+}
