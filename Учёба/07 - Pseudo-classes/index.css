@@ -122,17 +122,29 @@ body {
 }
 
 .text_button{
+    font-size: 20px;
     display: block;
     width: 300px;
     height: 50px;
-    background-color: darksalmon;
-    font-size: 18px;
-    color:rgb(5, 25, 41);
-    text-transform: uppercase;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
     margin-bottom: 30px;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
 }
 
-.list{}
+.text_button:hover {
+    background: lightblue;
+}
+
+.text_button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
 
 .list li {
     font-size: 18px;
