@@ -1,0 +1,46 @@
+@import "null_style.scss";
+
+$fz:100px;
+
+%link_style{
+    font-style: italic;
+}
+
+@mixin fontz($f) {
+    font-size: 100px;
+}
+.block {
+    >p {
+        color: aqua;
+        font-size: $fz;
+    }
+    span {
+        color: green;
+    }
+    .block_text {
+        font-style: italic;
+    }
+    &.big {
+        font-size: 20px;
+    }
+}
+
+.link {
+    color: blueviolet;
+    text-decoration: underline;
+    font-size: 40px;
+    .block &{
+        color: deeppink;
+    }
+
+    &:hover {
+        color: yellow;
+    }
+}
+
+.link_2 {
+    @include fontz(100px);
+    color:dodgerblue;
+    text-decoration: underline dotted;
+    @extend %link_style;
+}
