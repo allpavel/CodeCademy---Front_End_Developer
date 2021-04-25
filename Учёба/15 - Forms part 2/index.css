@@ -1,0 +1,178 @@
+/* Сбрасываем стили браузеров */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+/* Конец */
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+h2 {
+    padding-top: 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p {
+    padding-top: 25px;
+    font-size: 17px;
+}
+
+ul {
+    margin: 0;
+    padding: 10px 0 10px 10px;
+    list-style: none;
+}
+
+li {
+    padding-bottom: 7px;
+}
+
+div+div {
+    margin-top: 1em;
+}
+
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+legend {
+    padding-top: 20px;
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
+}
+
+label span {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    margin-left: 15px;
+}
+
+input {
+    font: 1em sans-serif;
+    width: 250px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input[type=checkbox], input[type=radio] {
+    width: auto;
+    border: none;
+}
+
+input:focus {
+    border-color: #000;
+}
+
+fieldset {
+    font-size: 16px;
+    width: 250px;
+    margin-left: 150px;
+    border: 1px solid #999;
+}
+
+button {
+    margin: 20px 0 0 124px;
+    padding: 5px;
+    font-size: 19px;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    border: 1px solid #999;
+}
+
+label {
+    position: relative;
+}
+
+label em {
+    position: absolute;
+    right: 5px;
+    top: 20px;
+    font-size: 12px;
+}
+
+section {
+    display: block;
+}
+
+#card {
+    border: 1px solid #999;
+    margin-left: 13px;
+}
